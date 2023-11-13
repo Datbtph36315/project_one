@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".Home">
+    tools:context="com.example.Dangnhap.Home">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Quý"
+        android:text="Hello Quý, Đạt nè "
         android:textSize="30dp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="129dp"

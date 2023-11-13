@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/screen"
     android:padding="40sp"
-    tools:context=".MainActivity"
+    tools:context="com.example.Dangnhap.Login"
     android:orientation="vertical">
 
     <TextView

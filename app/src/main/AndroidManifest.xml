@@ -13,13 +13,13 @@
         android:theme="@style/Theme.Oder_Food"
         tools:targetApi="31">
         <activity
-            android:name=".Home"
+            android:name="com.example.Dangnhap.Home"
             android:exported="false" />
         <activity
-            android:name=".Signup"
+            android:name="com.example.Dangnhap.Signup"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.Dangnhap.Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

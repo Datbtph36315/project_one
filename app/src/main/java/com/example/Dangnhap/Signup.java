@@ -1,4 +1,4 @@
-package com.example.oder_food;
+package com.example.Dangnhap;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.oder_food.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
@@ -42,7 +43,7 @@ public class Signup extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Chuyển đến activity Đăng nhập
-                Intent intent = new Intent(Signup.this, MainActivity.class);
+                Intent intent = new Intent(Signup.this, Login.class);
                 startActivity(intent);
                 finish();
             }
@@ -76,7 +77,7 @@ public class Signup extends AppCompatActivity {
                                 if (task.isSuccessful()) {
                                     // Nếu đăng ký thành công, chuyển đến activity Đăng nhập
                                     Toast.makeText(Signup.this, "Đăng ký thành công", Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(Signup.this, MainActivity.class);
+                                    Intent intent = new Intent(Signup.this, Login.class);
                                     startActivity(intent);
                                     finish();
                                 } else {

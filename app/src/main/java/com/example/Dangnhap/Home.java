@@ -1,8 +1,10 @@
-package com.example.oder_food;
+package com.example.Dangnhap;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.oder_food.R;
 
 public class Home extends AppCompatActivity {
 
