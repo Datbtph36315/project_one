@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/screen"
     android:padding="40sp"
-    tools:context=".MainActivity"
+    tools:context=".Signup"
     android:orientation="vertical">
 
     <TextView
@@ -15,20 +15,20 @@
         android:textStyle="bold"
         android:textSize="25dp"
         android:textColor="@color/white"
-        android:text="Hello, Welcome Back" />
+        android:text="Hello" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log in"
+        android:text="Sign up"
         android:textSize="50dp"
         android:textColor="@color/white" />
 
     <com.google.android.material.textfield.TextInputLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="150dp"
-    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/email"
@@ -55,12 +55,12 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_Sing_in"
+        android:id="@+id/btn_Sing_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:background="@drawable/roudt_btn"
-        android:text="Sign in" />
+        android:text="Sign up" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -72,16 +72,17 @@
             android:layout_marginLeft="60dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't have an account?"
+            android:text="Already have an account?"
             android:textSize="15dp"
             android:textStyle="bold" />
+
         <TextView
-            android:id="@+id/txt_Sing_up"
+            android:id="@+id/txt_Sing_in"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=" Sign up"
-            android:textSize="15dp"
+            android:layout_height="match_parent"
+            android:text=" Sign in"
             android:textColor="@color/blue"
+            android:textSize="15dp"
             android:textStyle="bold" />
     </LinearLayout>
 

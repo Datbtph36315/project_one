@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "755531441133",
+    "firebase_url": "https://oder-doan-default-rtdb.firebaseio.com",
+    "project_id": "oder-doan",
+    "storage_bucket": "oder-doan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755531441133:android:87cc76618c15f8df70fde4",
+        "android_client_info": {
+          "package_name": "com.example.oder_food"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBLulaLTxKDZjokB85SlVGRBQHDEC_1x4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
